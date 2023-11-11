@@ -1,0 +1,59 @@
+body {
+    background-color: #ede0d4;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #B7B7A4;
+    width: 100%;
+    text-align: center;
+}
+
+#list li {
+    list-style-type: none;
+    letter-spacing: 3px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#list a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#list a:hover {
+    color: #E3D5CA;
+}
+
+.pic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    width: 400px;
+    height: 650px;
+    background-color: #B7B7A4;
+    margin: 40px 10px 0;
+}
