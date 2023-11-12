@@ -17,6 +17,7 @@ header {
     background-color: #B7B7A4;
     width: 100%;
     text-align: center;
+    z-index: 1000;
 }
 
 #list li {
@@ -52,6 +53,7 @@ header {
 }
 
 .pic {
+    position: relative;
     display: flex;
     width: 1365px;
     text-align: center;
@@ -59,6 +61,7 @@ header {
 }
 
 .box {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,4 +80,265 @@ header {
     width: 440px;
     height: 530px;
     border-radius: 3%;
+}
+
+.pic3 {
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+
+#aboutme {
+    position: relative;
+    background-color: #b0a084;
+    margin-top: 200px;
+    margin-bottom: 430px;
+    border-radius: 3.5%;
+}
+
+#word {
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 35px;
+    color: #7b6b43;
+}
+
+.title {
+    position: relative;
+    color: #ede0d4;
+    text-align: center;
+    z-index: 990;
+    font-size: 35px;
+}
+
+.motto {
+    position: relative;
+    color: #f2f4f3;
+    margin-left: 550px;
+    margin-top: -350px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#tag1 {
+    position: relative;
+    background-color: #7b6b43;
+    white-space: nowrap;
+    border-radius: 15%;
+    color: #ede0d4;
+    box-shadow: none;
+    border: unset;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    padding: 10px 20px 40px 400px;
+}
+
+.contact a {
+    margin-right: 10px;
+}
+
+.contact img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 15%
+}
+
+#experience {
+    position: relative;
+    background-color: #9d8977;
+    margin-top: -300px;
+    margin-bottom: 500px;
+    border-radius: 3.5%;
+    height: 1400px;
+}
+
+.photo {
+    position: relative;
+    border-radius: 10%;
+}
+
+.photo img {
+    position: relative;
+    width: 460px;
+    height: 335px;
+    border-radius: 15%;
+    margin-left: 70px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.word2 {
+    position: relative;
+    width: 60%;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.video a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: color 0.8s, transform 0.3s;
+
+}
+
+.video a:hover {
+    color: #5e503f;
+    font-size: 1.1em;
+}
+
+.teach {
+    color: #ede0d4;
+
+}
+
+#barchart {
+    position: relative;
+    background-color: #b0a084;
+    margin-top: -400px;
+    border-radius: 3.5%;
+    height: 850px;
+}
+
+#language {
+    position: relative;
+    text-align: center;
+    font-size: 27px;
+    color: #5e503f;
+    -webkit-text-stroke: 1px #dcc9b6;
+}
+
+.progress1 {
+    position: relative;
+    border: 1px solid #7b6b43;
+    background: #dcc9b6;
+    border-radius: 5px;
+    width: 600px;
+    height: 20px;
+    margin: 50px auto;
+}
+
+.program1 {
+    position: relative;
+    background: repeating-linear-gradient(45deg, #5e503f 0px, #5e503f 15px, #a9927d 15px, #a9927d 30px);
+    background-size: 42px 20px;
+    height: 20px;
+    width: 380px;
+    animation: progress1-striped 1s linear 0s infinite normal both;
+}
+
+.program2 {
+    position: relative;
+    height: 20px;
+    width: 300px;
+    background: repeating-linear-gradient(45deg, #5e503f 0px, #5e503f 15px, #a9927d 15px, #a9927d 30px);
+    background-size: 42px 20px;
+    animation: progress1-striped 1s linear 0s infinite normal both;
+}
+
+.program3 {
+    position: relative;
+    height: 20px;
+    width: 400px;
+    background: repeating-linear-gradient(45deg, #5e503f 0px, #5e503f 15px, #a9927d 15px, #a9927d 30px);
+    background-size: 42px 20px;
+    animation: progress1-striped 1s linear 0s infinite normal both;
+}
+
+.program4 {
+    position: relative;
+    height: 20px;
+    width: 250px;
+    background: repeating-linear-gradient(45deg, #5e503f 0px, #5e503f 15px, #a9927d 15px, #a9927d 30px);
+    background-size: 42px 20px;
+    animation: progress1-striped 1s linear 0s infinite normal both;
+}
+
+.program5 {
+    position: relative;
+    height: 20px;
+    width: 250px;
+    background: repeating-linear-gradient(45deg, #5e503f 0px, #5e503f 15px, #a9927d 15px, #a9927d 30px);
+    background-size: 42px 20px;
+    animation: progress1-striped 1s linear 0s infinite normal both;
+}
+
+@keyframes progress1-striped {
+    from {
+        background-position: 42px 0px;
+    }
+
+    to {
+        background-position: 0px 0px;
+    }
+}
+
+.education {
+    position: relative;
+    background-color: #9d8977;
+    margin-top: 100px;
+    border-radius: 3.5%;
+    height: 650px;
+}
+
+.grade1 {
+    position: relative;
+    color: #dcc9b6;
+    padding: 20px;
+    font-size: 28px;
+
+}
+
+.schoolname {
+    position: relative;
+    color: #dcc9b6;
+    font-size: 28px;
+    padding: 20px;
+
+}
+
+.size {
+    position: relative;
+    padding: 20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+
+.size:hover {
+    transform: rotate(45deg);
+}
+
+
+.grade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
 }
